@@ -1,9 +1,7 @@
 package com.danmatmap.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +11,8 @@ import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Restaurant {
 
     @Id
@@ -30,6 +30,7 @@ public class Restaurant {
 
     private String status;       // A: 활성 / D: 비활성
 
+    @Builder.Default
     // ✅ 다대다 관계: 태그(카테고리 역할 포함)
     @OneToMany(mappedBy = "restaurant", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<RestaurantTag> restaurantTags = new ArrayList<>();
