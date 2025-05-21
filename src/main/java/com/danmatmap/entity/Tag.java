@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "tags")
+@Table(name = "tag")
 @Getter
 @Setter
 @NoArgsConstructor
