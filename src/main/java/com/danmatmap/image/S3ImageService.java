@@ -81,10 +81,11 @@ public class S3ImageService {
 
         try {
             PutObjectRequest putObjectRequest =
-                    new PutObjectRequest(bucketName, s3FileName, byteArrayInputStream, metadata)
-                            .withCannedAcl(CannedAccessControlList.PublicRead);
+                    new PutObjectRequest(bucketName, s3FileName, byteArrayInputStream, metadata);
+//                            .withCannedAcl(CannedAccessControlList.PublicRead);
             amazonS3.putObject(putObjectRequest); // put image to S3
         } catch (Exception e) {
+            e.printStackTrace();
             throw new CustomException(PUT_OBJECT_EXCEPTION);
         } finally {
             byteArrayInputStream.close();
