@@ -18,6 +18,7 @@ public class RestaurantResponseDto {
     private String longitude;
     private String imageUrl;
     private String status;
+    private String category;
     private List<String> tags;  // restaurantTags에서 tag name만 추출
 
     public static RestaurantResponseDto fromEntity(Restaurant restaurant) {
@@ -30,6 +31,7 @@ public class RestaurantResponseDto {
                 .longitude(restaurant.getLongitude())
                 .imageUrl(restaurant.getImageUrl())
                 .status(restaurant.getStatus())
+                .category(restaurant.getCategory())
                 .tags(
                         restaurant.getRestaurantTags().stream()
                                 .map(rt -> rt.getTag().getName())

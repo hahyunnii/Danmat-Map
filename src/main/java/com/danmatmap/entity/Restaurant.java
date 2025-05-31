@@ -29,6 +29,7 @@ public class Restaurant {
     private String imageUrl;
 
     private String status;       // A: 활성 / D: 비활성
+    private String category;
 
     @Builder.Default
     // ✅ 다대다 관계: 태그(카테고리 역할 포함)
