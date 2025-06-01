@@ -44,5 +44,12 @@ public class RestaurantController {
         return ResponseEntity.ok().build();
     }
 
+    // ✅ 식당 번역 업데이트
+    @PostMapping("/{restaurantId}/translate")
+    public ResponseEntity<Void> translateRestaurant(@PathVariable Long restaurantId) {
+        restaurantService.updateTranslations(restaurantId);
+        return ResponseEntity.ok().build();
+    }
+
     // ⏳ (TODO) 식당 정보 수정, 태그 삭제, 식당 삭제 등의 기능이 필요한 경우 이후에 추가 가능
 }

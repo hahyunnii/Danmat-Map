@@ -9,6 +9,7 @@ import com.danmatmap.repository.RestaurantRepository;
 import com.danmatmap.repository.RestaurantTagRepository;
 import com.danmatmap.repository.TagRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -18,11 +19,13 @@ import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class RestaurantService {
 
     private final RestaurantRepository restaurantRepository;
     private final TagRepository tagRepository;
     private final RestaurantTagRepository restaurantTagRepository;
+    private final TranslationService translationService;
 
     // 전체 식당 목록 조회
     @Transactional(readOnly = true)
@@ -72,5 +75,29 @@ public class RestaurantService {
 
         restaurant.getRestaurantTags().add(restaurantTag);
         restaurantTagRepository.save(restaurantTag);
+    }
+
+    // 식당 정보 번역 업데이트
+    @Transactional
+    public void updateTranslations(Long restaurantId) {
+        Restaurant restaurant = restaurantRepository.findById(restaurantId)
+                .orElseThrow(() -> new NoSuchElementException("식당을 찾을 수 없습니다."));
+
+        log.info("식당 '{}' 번역 시작", restaurant.getTitle());
+
+        // 제목 번역
+        restaurant.setTitleEn(translationService.translateToEnglish(restaurant.getTitle()));
+        restaurant.setTitleJa(translationService.translateToJapanese(restaurant.getTitle()));
+        restaurant.setTitleZh(translationService.translateToChinese(restaurant.getTitle()));
+
+        // 메뉴 번역 (메뉴가 있는 경우만)
+        if (restaurant.getMenu() != null && !restaurant.getMenu().isEmpty()) {
+            restaurant.setMenuEn(translationService.translateToEnglish(restaurant.getMenu()));
+            restaurant.setMenuJa(translationService.translateToJapanese(restaurant.getMenu()));
+            restaurant.setMenuZh(translationService.translateToChinese(restaurant.getMenu()));
+        }
+
+        restaurantRepository.save(restaurant);
+        log.info("식당 '{}' 번역 완료", restaurant.getTitle());
     }
 }
