@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>단맛지도</title>
+  <meta name="author" content="32220235권나희" />
+  <meta name="description" content="단국대 맛집 지도 서비스" />
+  <link rel="stylesheet" href="style2.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Orbit&family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Tagify 라이브러리 추가 -->
+  <link href="https://cdn.jsdelivr.net/npm/@yaireo/tagify/dist/tagify.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@yaireo/tagify"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@yaireo/tagify/dist/tagify.polyfills.min.js"></script>
+  <!-- AutoComplete.js 라이브러리 추가 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.9/dist/css/autoComplete.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.9/dist/autoComplete.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="image/fork.png" alt="로고" class="logo-icon">
+      <h1 class="title">단맛지도</h1>
+    </div>
+    <div class="search-area">
+      <div class="search-box">
+        <input id="autoComplete" type="search" dir="ltr" spellcheck="false" autocomplete="off" autocapitalize="off" aria-label="검색" placeholder="식당이나 태그 검색...">
+      </div>
+    </div>
+    <div class="contact">
+      <div class="language-selector">
+        <button class="lang-btn active" data-lang="ko">한국어</button>
+        <button class="lang-btn" data-lang="en">English</button>
+        <button class="lang-btn" data-lang="ja">日本語</button>
+        <button class="lang-btn" data-lang="zh">中文</button>
+      </div>
+      <a href="mailto:alsrl030902@naver.com">
+        <img src="image/email.png" alt="이메일 보내기" class="email-icon">
+      </a>
+    </div>
+  </header>
+  
+  <!-- 카테고리 메뉴와 태그 입력창 -->
+  <div class="menu-filter-bar">
+    <div class="category-toggle">
+      <img src="image/category.png" alt="카테고리" class="category-icon">
+      <span>카테고리 메뉴</span>
+    </div>
+    <div class="tag-filter-area">
+      <input id="tags-input" class="tags-input" placeholder="태그 선택">
+    </div>
+  </div>
+
+  <div class="main-content">
+    <!-- 사이드 카테고리 메뉴 -->
+    <div class="category-sidebar">
+      <div class="category-menu">
+        <!-- 상위 카테고리 버튼들 -->
+        <div class="main-categories">
+          <button class="main-category-btn" data-category="restaurant">
+            <span class="icon">🍴</span> 음식점
+          </button>
+          <button class="main-category-btn" data-category="cafe">
+            <span class="icon">☕</span> 카페
+          </button>
+          <button class="main-category-btn" data-category="bar">
+            <span class="icon">🍺</span> 주점
+          </button>
+        </div>
+        
+        <!-- 음식점 카테고리 -->
+        <div class="category-group" id="restaurant-category">
+          <div class="category-parent" data-category="restaurant">
+            <span class="icon">🍴</span> 음식점
+            <span class="toggle-icon">▾</span>
+          </div>
+          <div class="category-children" id="restaurant-menu">
+            <!-- 음식 종류 서브카테고리 -->
+            <div class="subcategory-group">
+              <div class="subcategory-parent" data-subcategory="food-type">
+                <span class="icon">🍽</span> 음식 종류
+                <span class="toggle-icon">▾</span>
+              </div>
+              <div class="subcategory-children" id="food-type-menu">
+                <label class="filter-item"><input type="checkbox" data-tag="한식"> 한식</label>
+                <label class="filter-item"><input type="checkbox" data-tag="중식"> 중식</label>
+                <label class="filter-item"><input type="checkbox" data-tag="일식"> 일식</label>
+                <label class="filter-item"><input type="checkbox" data-tag="양식"> 양식</label>
+                <label class="filter-item"><input type="checkbox" data-tag="아시안"> 아시안</label>
+                <label class="filter-item"><input type="checkbox" data-tag="기타"> 기타</label>
+              </div>
+            </div>
+            <!-- 기타 식당 필터 -->
+            <label class="filter-item"><input type="checkbox" data-tag="혼밥하기 좋은"> 혼밥하기 좋은</label>
+            <label class="filter-item"><input type="checkbox" data-tag="단체 식사 가능"> 단체 식사 가능</label>
+            <label class="filter-item"><input type="checkbox" data-tag="단체 포장/예약 가능"> 단체 포장/예약 가능</label>
+            <label class="filter-item"><input type="checkbox" data-tag="가성비 좋은"> 가성비 좋은</label>
+            <label class="filter-item"><input type="checkbox" data-tag="주류도 판매하는"> 주류도 판매하는</label>
+            <label class="filter-item"><input type="checkbox" data-tag="토요일 영업하는"> 토요일 영업하는</label>
+            <label class="filter-item"><input type="checkbox" data-tag="일요일 영업하는"> 일요일 영업하는</label>
+            <label class="filter-item"><input type="checkbox" data-tag="이른 아침 식사 가능"> 이른 아침 식사 가능</label>
+            <label class="filter-item"><input type="checkbox" data-tag="늦은 저녁 식사 가능"> 늦은 저녁 식사 가능</label>
+          </div>
+        </div>
+        
+        <!-- 카페 카테고리 -->
+        <div class="category-group" id="cafe-category">
+          <div class="category-parent" data-category="cafe">
+            <span class="icon">☕</span> 카페
+            <span class="toggle-icon">▾</span>
+          </div>
+          <div class="category-children" id="cafe-menu">
+            <label class="filter-item"><input type="checkbox" data-tag="카공하기 좋은"> 카공하기 좋은</label>
+            <label class="filter-item"><input type="checkbox" data-tag="팀플하기 좋은"> 팀플하기 좋은</label>
+            <label class="filter-item"><input type="checkbox" data-tag="단체 모임하기 좋은"> 단체 모임하기 좋은</label>
+            <label class="filter-item"><input type="checkbox" data-tag="가성비 좋은"> 가성비 좋은</label>
+          </div>
+        </div>
+        
+        <!-- 주점 카테고리 -->
+        <div class="category-group" id="bar-category">
+          <div class="category-parent" data-category="bar">
+            <span class="icon">🍺</span> 주점
+          </div>
+          <div class="category-children" id="bar-menu">
+          </div>
+        </div>
+        
+        <!-- 하단 버튼 -->
+        <div class="bottom-buttons">
+          <button id="random-place-btn" class="action-btn random-btn">
+            <span class="icon">🎲</span> 가게 추천
+          </button>
+          <button id="show-all-btn" class="action-btn show-all-btn">
+            <span class="icon">🔍</span> 모두 보기
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 지도 영역 -->
+    <div class="map-container">
+      <div id="map"></div>
+    </div>
+  </div>
+  
+  <!-- 랜덤 가게 추천 모달 -->
+  <div id="random-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>오늘의 추천 맛집</h2>
+      <div id="random-place-info"></div>
+      <button id="try-another-btn" class="action-btn random-btn">다른 가게 추천받기</button>
+    </div>
+  </div>
+
+  <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=73a23e77bdb6f562d1f1ad7b78f87a6c&libraries=services"></script>
+  <script src="script.js"></script>
+</body>
+</html>
