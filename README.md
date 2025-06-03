@@ -25,11 +25,11 @@
 
 ## 🧑‍💻 팀원 소개
 
-| 이름   | 전공           | 역할                                                    |
-|--------|----------------|---------------------------------------------------------|
-| 이하현 | 소프트웨어학과 | DB 설계 및 관리, 백엔드 개발, 프론트엔드 개발, 자료조사 |
-| 권나희 | 산업보안학과   | 프론트엔드 개발, UI 구성, 자료조사                    |
-| 조수빈 | 컴퓨터공학과   | 프론트엔드 개발, 자료조사                             |
+| 이름 | 전공 | 역할 | GitHub |
+|------|------|------|--------|
+| 이하현 | 소프트웨어학과 | DB 설계 및 관리, 백엔드 개발, 프론트엔드 개발, 자료조사 | [@hahyunnii](https://github.com/hahyunnii) |
+| 권나희 | 산업보안학과 | 프론트엔드 개발, UI 구성, 자료조사 | [@naheekwon](https://github.com/naheekwon) |
+| 조수빈 | 컴퓨터공학과 | 프론트엔드 개발, 자료조사 | [@kimchi-cream](https://github.com/kimchi-cream) |
 
 ---
 
@@ -73,16 +73,12 @@
 | `POST` | `/restaurants/{restaurantId}/translate` | 해당 식당의 다국어 번역을 생성합니다. |
 | `POST` | `/restaurants/{restaurantId}/tags` | 해당 식당에 새로운 태그를 추가합니다. |
 
----
-
 ### 🖼️ Image API
 
 | Method | URI | Description |
 |--------|-----|-------------|
 | `POST` | `/api/images/upload` | 이미지 파일을 S3 버킷에 업로드 |
 | `DELETE` | `/api/images/delete` | S3 버킷에서 이미지 삭제 |
-
----
 
 ### 🌍 Translation API
 
@@ -97,43 +93,100 @@
 
 > 주요 테이블: Restaurant, Tag, Restaurant_Tag (다대다 관계)
 
-![ERD 예시](https://your-image-url-here.com)
+![image](https://github.com/user-attachments/assets/c45d4e91-837e-47e1-9e35-2130f2b7ced7)
+
 
 ---
 
 ## 🏁 프로젝트 결과
 
-> 주요 기능을 이미지로 구성하세요! (아래는 예시 이미지 URL입니다)
-
-### 📌 랜덤 추천
-
-![랜덤 추천](https://your-image-url.com/random-recommendation.png)
+> 주요 기능 GIF 및 이미지
 
 ---
 
-### 📌 태그 기반 필터링
+### 📌 카테고리 기반 필터링  
+카테고리 메뉴에서 원하는 항목을 선택해 태그를 지정합니다.
+https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/1_category.gif
 
-![태그 필터](https://your-image-url.com/tag-filter.png)
-
----
-
-### 📌 자동완성 검색
-
-![검색 자동완성](https://your-image-url.com/autocomplete.png)
+<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/1_category.gif" target="_blank">
+  <img src="https://github.com/user-attachments/assets/3c167544-3a47-4ed5-81d4-37d687f8c253" width="600"/>
+</a>
 
 ---
 
-### 📌 다국어 번역
+### 📌 랜덤 추천  
+버튼 클릭 시 무작위로 가게 하나를 추천해줍니다.
+https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/2_ramdom.gif
 
-![다국어 번역](https://your-image-url.com/translation.png)
+<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/2_ramdom.gif" target="_blank">
+  <img src="https://github.com/user-attachments/assets/469aec23-bfd5-4fbb-b5aa-e83ede90a57c" width="600"/>
+</a>
+
+---
+
+### 📌 식당 및 태그를 검색  
+카테고리 태그를 직접 선택하거나 자동완성 기능을 통해 식당을 검색할 수 있습니다.
+https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/3_tagsearch.gif
+
+**자동완성 (AutoComplete.js)**
+
+<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/3_tagsearch.gif" target="_blank">
+  <img src="https://github.com/user-attachments/assets/ea639c17-14ff-4c0d-b8bc-7193f28fff8a" width="600"/>
+</a>
+
+**태그 선택 (Tagify)**
+
+<a href="https://github.com/user-attachments/assets/6f6f6b93-7fe8-4494-8a84-77847a146cdd" target="_blank">
+  <img src="https://github.com/user-attachments/assets/6f6f6b93-7fe8-4494-8a84-77847a146cdd" width="600"/>
+</a>
+
+**태그**
+
+<a href="https://github.com/user-attachments/assets/189cc4e6-9a39-4eaa-a490-2ea89d00b380" target="_blank">
+  <img src="https://github.com/user-attachments/assets/189cc4e6-9a39-4eaa-a490-2ea89d00b380" width="600"/>
+</a>
+
+
 
 ---
 
-### 📌 이메일 연동
+### 📌 다국어 번역  
+LibreTranslate API를 통해 한국어를 영어, 일본어, 중국어로 자동 번역합니다.
+https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/4_translation.gif
 
-![메일 연동](https://your-image-url.com/email.png)
+**영어 번역 결과**
+
+<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/4_translation.gif" target="_blank">
+  <img src="https://github.com/user-attachments/assets/4bc535e5-5b13-4bdb-8679-45b3b3620299" width="600"/>
+</a>
+
+**일어 번역 결과**
+
+<a href="https://github.com/user-attachments/assets/2d8e81df-afc2-477d-bbea-c79820818c33" target="_blank">
+  <img src="https://github.com/user-attachments/assets/2d8e81df-afc2-477d-bbea-c79820818c33" width="600"/>
+</a>
+
+**중국어 번역 결과**
+
+<a href="https://github.com/user-attachments/assets/03cf2b25-d88c-4016-bd88-2e15b47e3ab0" target="_blank">
+  <img src="https://github.com/user-attachments/assets/03cf2b25-d88c-4016-bd88-2e15b47e3ab0" width="600"/>
+</a>
 
 ---
+
+### 📌 이메일 연동  
+이메일 아이콘 클릭 시 기본 메일 앱이 열리며, 관리자에게 문의 가능합니다. (mailto)
+https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/5_mailto.gif
+
+<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/5_mailto.gif" target="_blank">
+  <img src="https://github.com/user-attachments/assets/a4cc765d-2f5d-4e59-abdd-a36d088beaf9" width="600"/>
+</a>
+
+
+
+
+---
+
 
 ## 🏗️ 시스템 아키텍처
 
