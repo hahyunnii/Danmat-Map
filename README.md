@@ -103,27 +103,27 @@
 > 주요 기능을 GIF 이미지로 시각화한 예시입니다.
 
 ### 📌 카테고리 기반 필터링
-![카테고리 필터링](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/1_category.gif)
+https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/1_category.gif
 
 ---
 
 ### 📌 랜덤 추천
-![랜덤 추천](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/2_ramdom.gif)
+https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/2_ramdom.gif
 
 ---
 
 ### 📌 식당 및 태그 검색
-![태그 검색](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/3_tagsearch.gif)
+https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/3_tagsearch.gif
 
 ---
 
 ### 📌 다국어 번역
-![다국어 번역](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/4_translation.gif)
+https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/4_translation.gif
 
 ---
 
 ### 📌 이메일 연동
-![메일 연동](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/5_mailto.gif)
+https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/5_mailto.gif
 
 ---
 
