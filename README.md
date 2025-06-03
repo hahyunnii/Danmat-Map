@@ -104,56 +104,74 @@
 
 ---
 
-### 📌 카테고리 기반 필터링
+### 📌 카테고리 기반 필터링  
+카테고리 메뉴에서 원하는 항목을 선택해 태그를 지정합니다.
 
-카테고리 선택 → 태그 기반 음식점 필터링 기능입니다.  
-<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/1_category.gif">
+<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/1_category.gif" target="_blank">
   <img src="https://github.com/user-attachments/assets/3c167544-3a47-4ed5-81d4-37d687f8c253" width="600"/>
 </a>
 
 ---
 
-### 📌 랜덤 추천
+### 📌 랜덤 추천  
+버튼 클릭 시 무작위로 가게 하나를 추천해줍니다.
 
-카테고리와 상관없이 무작위 추천 기능입니다.  
-<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/2_ramdom.gif">
+<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/2_ramdom.gif" target="_blank">
   <img src="https://github.com/user-attachments/assets/469aec23-bfd5-4fbb-b5aa-e83ede90a57c" width="600"/>
 </a>
 
 ---
 
-### 📌 식당 및 태그 검색
+### 📌 식당 및 태그 검색  
+카테고리 태그를 직접 선택하거나 자동완성 기능을 통해 식당을 검색할 수 있습니다.
 
-**카테고리 태그 검색**
-<img src="https://github.com/user-attachments/assets/ea639c17-14ff-4c0d-b8bc-7193f28fff8a" width="600"/>
+**Tagify 기반 태그 선택**
 
-**카테고리 태그 필터링 (Tagify)**
-<img src="https://github.com/user-attachments/assets/189cc4e6-9a39-4eaa-a490-2ea89d00b380" width="600"/>
+<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/3_tagsearch.gif" target="_blank">
+  <img src="https://github.com/user-attachments/assets/ea639c17-14ff-4c0d-b8bc-7193f28fff8a" width="600"/>
+</a>
 
-**자동완성 기능 (AutoComplete.js)**
-<img src="https://github.com/user-attachments/assets/6f6f6b93-7fe8-4494-8a84-77847a146cdd" width="600"/>
+**카테고리 태그 필터링**
 
----
+<a href="https://github.com/user-attachments/assets/189cc4e6-9a39-4eaa-a490-2ea89d00b380" target="_blank">
+  <img src="https://github.com/user-attachments/assets/189cc4e6-9a39-4eaa-a490-2ea89d00b380" width="600"/>
+</a>
 
-### 📌 다국어 번역
+**자동완성 (AutoComplete.js)**
 
-사용자가 버튼을 클릭하면 LibreTranslate API를 통해 다국어로 번역됩니다.
-
-**영어**
-<img src="https://github.com/user-attachments/assets/4bc535e5-5b13-4bdb-8679-45b3b3620299" width="600"/>
-
-**일어**
-<img src="https://github.com/user-attachments/assets/2d8e81df-afc2-477d-bbea-c79820818c33" width="600"/>
-
-**중국어**
-<img src="https://github.com/user-attachments/assets/03cf2b25-d88c-4016-bd88-2e15b47e3ab0" width="600"/>
+<a href="https://github.com/user-attachments/assets/6f6f6b93-7fe8-4494-8a84-77847a146cdd" target="_blank">
+  <img src="https://github.com/user-attachments/assets/6f6f6b93-7fe8-4494-8a84-77847a146cdd" width="600"/>
+</a>
 
 ---
 
-### 📌 이메일 연동
+### 📌 다국어 번역  
+LibreTranslate API를 통해 한국어를 영어, 일본어, 중국어로 자동 번역합니다.
 
-mailto 링크를 통해 기본 이메일 앱이 열려 관리자에게 문의 가능  
-<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/5_mailto.gif">
+**영어 번역 결과**
+
+<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/4_translation.gif" target="_blank">
+  <img src="https://github.com/user-attachments/assets/4bc535e5-5b13-4bdb-8679-45b3b3620299" width="600"/>
+</a>
+
+**일어 번역 결과**
+
+<a href="https://github.com/user-attachments/assets/2d8e81df-afc2-477d-bbea-c79820818c33" target="_blank">
+  <img src="https://github.com/user-attachments/assets/2d8e81df-afc2-477d-bbea-c79820818c33" width="600"/>
+</a>
+
+**중국어 번역 결과**
+
+<a href="https://github.com/user-attachments/assets/03cf2b25-d88c-4016-bd88-2e15b47e3ab0" target="_blank">
+  <img src="https://github.com/user-attachments/assets/03cf2b25-d88c-4016-bd88-2e15b47e3ab0" width="600"/>
+</a>
+
+---
+
+### 📌 이메일 연동  
+이메일 아이콘 클릭 시 기본 메일 앱이 열리며, 관리자에게 문의 가능합니다.
+
+<a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/5_mailto.gif" target="_blank">
   <img src="https://github.com/user-attachments/assets/a4cc765d-2f5d-4e59-abdd-a36d088beaf9" width="600"/>
 </a>
 
