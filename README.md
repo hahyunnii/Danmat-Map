@@ -104,26 +104,49 @@
 
 ### 📌 카테고리 기반 필터링
 https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/1_category.gif
+![1_카테고리](https://github.com/user-attachments/assets/3c167544-3a47-4ed5-81d4-37d687f8c253)
 
 ---
 
 ### 📌 랜덤 추천
 https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/2_ramdom.gif
+![2_랜덤추천](https://github.com/user-attachments/assets/469aec23-bfd5-4fbb-b5aa-e83ede90a57c)
 
 ---
 
 ### 📌 식당 및 태그 검색
 https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/3_tagsearch.gif
+카테고리 태그 검색
+![3_카테고리 태그 검색](https://github.com/user-attachments/assets/ea639c17-14ff-4c0d-b8bc-7193f28fff8a)
+
+카테고리 태그 필터링 (Tagify)
+![3_카테고리 태그 선택](https://github.com/user-attachments/assets/189cc4e6-9a39-4eaa-a490-2ea89d00b380)
+
+카테고리 태그 자동완성 (AutoComplete.js)
+![3_카테고리 태그 선택바](https://github.com/user-attachments/assets/6f6f6b93-7fe8-4494-8a84-77847a146cdd)
 
 ---
 
 ### 📌 다국어 번역
 https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/4_translation.gif
 
+영어
+![4_번역(영어)](https://github.com/user-attachments/assets/4bc535e5-5b13-4bdb-8679-45b3b3620299)
+
+일어
+![4_번역(일어)](https://github.com/user-attachments/assets/2d8e81df-afc2-477d-bbea-c79820818c33)
+
+중국어
+![4_번역(중국어)](https://github.com/user-attachments/assets/6d5b7764-12aa-4ca5-8cb8-17ddd2120376)
+
+
 ---
 
 ### 📌 이메일 연동
 https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/5_mailto.gif
+![5_mailto](https://github.com/user-attachments/assets/a4cc765d-2f5d-4e59-abdd-a36d088beaf9)
+
+
 
 ---
 
