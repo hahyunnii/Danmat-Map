@@ -103,7 +103,7 @@
 > 주요 기능을 GIF 이미지로 시각화한 예시입니다.
 
 ### 📌 카테고리 기반 필터링
-![카테고리 필터링](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/1.+%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC.gif)
+![카테고리 필터링](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/1_category.gif)
 
 ---
 
