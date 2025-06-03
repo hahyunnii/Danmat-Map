@@ -73,16 +73,12 @@
 | `POST` | `/restaurants/{restaurantId}/translate` | 해당 식당의 다국어 번역을 생성합니다. |
 | `POST` | `/restaurants/{restaurantId}/tags` | 해당 식당에 새로운 태그를 추가합니다. |
 
----
-
 ### 🖼️ Image API
 
 | Method | URI | Description |
 |--------|-----|-------------|
 | `POST` | `/api/images/upload` | 이미지 파일을 S3 버킷에 업로드 |
 | `DELETE` | `/api/images/delete` | S3 버킷에서 이미지 삭제 |
-
----
 
 ### 🌍 Translation API
 
@@ -97,7 +93,8 @@
 
 > 주요 테이블: Restaurant, Tag, Restaurant_Tag (다대다 관계)
 
-![ERD 예시](https://your-image-url-here.com)
+![image](https://github.com/user-attachments/assets/c45d4e91-837e-47e1-9e35-2130f2b7ced7)
+
 
 ---
 
