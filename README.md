@@ -63,15 +63,15 @@
 
 ## 📡 전체 API 명세
 
-### 🍽️ Restaurant API 상세 명세
+### 🍽️ Restaurant API
 
-| 기능 | Method | URI | 설명 | Request Body | Request Params | Response |
-|------|--------|-----|------|---------------|----------------|----------|
-| 식당 전체 조회 | `GET` | `/restaurants` | 모든 식당 정보를 조회합니다. | - | - | `200 OK`: 식당 목록<br>`400 Bad Request` |
-| 식당 단건 조회 | `GET` | `/restaurants/{id}` | ID로 식당 하나를 조회합니다. | - | `id` (Path: Long) | `200 OK`: 식당 정보<br>`400 Bad Request` |
-| 태그 기반 조회 | `GET` | `/restaurants/by-tag` | 특정 태그가 포함된 식당 목록을 조회합니다. | - | `tagName` (Query: String) | `200 OK`: 식당 목록<br>`400 Bad Request` |
-| 식당 번역 생성 | `POST` | `/restaurants/{restaurantId}/translate` | 해당 식당의 다국어 번역을 생성합니다. | - | `restaurantId` (Path: Long) | `200 OK`<br>`400 Bad Request` |
-| 식당 태그 추가 | `POST` | `/restaurants/{restaurantId}/tags` | 해당 식당에 새로운 태그를 추가합니다. | `{ "tagName": "string" }` (JSON) | `restaurantId` (Path: Long) | `200 OK`<br>`400 Bad Request` |
+| Method | URI | Description |
+|--------|-----|-------------|
+| `GET` | `/restaurants` | 모든 식당 정보를 조회합니다. |
+| `GET` | `/restaurants/{id}` | 특정 ID의 식당 상세 정보를 조회합니다. |
+| `GET` | `/restaurants/by-tag?tagName=string` | 특정 태그가 포함된 식당 목록을 조회합니다. |
+| `POST` | `/restaurants/{restaurantId}/translate` | 해당 식당의 다국어 번역을 생성합니다. |
+| `POST` | `/restaurants/{restaurantId}/tags` | 해당 식당에 새로운 태그를 추가합니다. |
 
 ---
 
