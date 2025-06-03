@@ -99,7 +99,7 @@ INSERT INTO restaurant (title, menu, image_url, category, address, status) VALUE
                                                                                ('일미돈가스', '돈까스', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/27_%EC%9D%BC%EB%AF%B8%EB%8F%88%EA%B9%8C%EC%8A%A4.jpeg', '음식점', '경기 용인시 수지구 죽전로144번길 12-8', 'A'),
                                                                                ('혜자', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/28_%ED%98%9C%EC%9E%90.jpeg', '주점', '경기 용인시 수지구 죽전로144번길 12-6', 'A'),
                                                                                ('곰포차', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/29_%EA%B3%B0%ED%8F%AC%EC%B0%A8.jpeg', '주점', '경기 용인시 수지구 죽전로144번길 10 1층', 'A'),
-                                                                               ('도쿠', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/30_%EB%8F%84%EC%BF%A0.jpeg', '주점', '경기 용인시 수지구 죽전로144번길 11-7 1층', 'A');
+                                                                               ('도쿠', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/30_%EB%8F%84%EC%BF%A0.jpeg', '주점', '경기 용인시 수지구 죽전로144번길 11-7 1층', 'A'),
 
                                                                                ('옹고집', '쌈밥, 돼지 두루치기', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/31_옹고집.jpeg', '음식점', '경기 용인시 수지구 죽전로144번길 11-9 1층', 'A'),
                                                                                ('단대골목', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/32_단대골목.jpeg', '주점', '경기 용인시 수지구 죽전로144번길 12-11 1층', 'A'),
@@ -132,35 +132,35 @@ INSERT INTO restaurant (title, menu, image_url, category, address, status) VALUE
                                                                                ('보통카페', NULL, 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/57_%EB%B3%B4%ED%86%B5%EC%B9%B4%ED%8E%98.jpeg', '카페', '경기 용인시 수지구 죽전로168번길 27 1층', 'A'),
                                                                                ('홍춘', '짬뽕', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/58_%ED%99%8D%EC%B6%98.jpeg', '음식점', '경기 용인시 수지구 죽전로168번길 29 1층', 'A'),
                                                                                ('카페168', NULL, 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/59_%EC%B9%B4%ED%8E%98168.jpeg', '카페', '경기 용인시 수지구 죽전로168번길 35 1층', 'A'),
-                                                                               ('다린', '이탈리안', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/60_%EB%8B%A4%EB%A6%B0.jpeg', '음식점', '경기 용인시 수지구 죽전로168번길 39', 'A'),
+                                                                               ('다린', '이탈리안', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/60_%EB%8B%A4%EB%A6%B0.jpeg', '음식점', '경기 용인시 수지구 죽전로168번길 39', 'A');
 
-                                                                               ('쫄면에빠진닭', '치킨', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/61_%EC%AB%84%EB%A9%B4%EC%97%90%EB%B9%A0%EC%A7%84%EB%8B%AD.jpeg', '음식점', '경기 용인시 수지구 죽전로 172 단국프라자 1층 104호', 'A'),
-                                                                               ('르헤브드베베', '마카롱', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/62_%EB%A5%B4%ED%97%A4%EB%B8%8C%EB%93%9C%EB%B2%A0%EB%B2%A0.jpeg', '카페', '경기 용인시 수지구 죽전로168번길 3-3', 'A'),
-                                                                               ('얌샘김밥', '분식', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/63_%EC%96%8C%EC%83%98%EA%B9%80%EB%B0%A5.jpeg', '음식점', '경기 용인시 수지구 죽전로 172 단국프라자 110호', 'A'),
-                                                                               ('굽네치킨', '치킨', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/64_%EA%B5%BD%EB%84%A4%EC%B9%98%ED%82%A8.jpeg', '음식점', '경기 용인시 수지구 죽전로 164 화이트존 1층 102호', 'A'),
-                                                                               ('예촌왕돌판구이', '돼지고기, 찌개', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/65_%EC%98%88%EC%B4%8C%EC%99%95%EB%8F%8C%ED%8C%90%EA%B5%AC%EC%9D%B4.jpeg', '음식점', '경기 용인시 수지구 죽전로168번길 7 2층', 'A'),
-                                                                               ('참바지락칼제비', '칼국수', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/66_%EC%B0%B8%EB%B0%94%EC%A7%80%EB%9D%BD%EC%B9%BC%EC%A0%9C%EB%B9%84.jpeg', '음식점', '경기 용인시 수지구 죽전로168번길 7 승은프라자 1층', 'A'),
-                                                                               ('신통치킨', '치킨', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/67_%EC%8B%A0%ED%86%B5%EC%B9%98%ED%82%A8.jpeg', '음식점', '경기 용인시 수지구 죽전로 136 월드프라자 101호', 'A'),
-                                                                               ('커피프리덤', '커피, 빙수, 아이스크림', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/68_%EC%BB%A4%ED%94%BC%ED%94%84%EB%A6%AC%EB%8D%A4.jpeg', '카페', '경기 용인시 수지구 죽전로 101호', 'A'),
-                                                                               ('꽃보다마카롱', '마카롱', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/69_%EA%BD%83%EB%B3%B4%EB%8B%A4%EB%A7%88%EC%B9%B4%EB%A1%B1.jpeg', '카페', '경기 용인시 수지구 죽전로 142 유니프라자 104호', 'A'),
-                                                                               ('투고박스', '베트남 국수', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/70_%ED%88%AC%EA%B3%A0%EB%B0%95%EC%8A%A4.jpeg', '음식점', '경기 용인시 수지구 죽전로 142 유니프라자 1층', 'A'),
-
-                                                                               ('타코하라', '타코야키', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/71_%ED%83%80%EC%BD%94%ED%95%98%EB%9D%BC.jpeg', '음식점', '경기 용인시 수지구 죽전로 146 1층 104호', 'A'),
-                                                                               ('이삭토스트', '토스트', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/72_%EC%9D%B4%EC%82%AD%ED%86%A0%EC%8A%A4%ED%8A%B8.jpeg', '음식점', '경기 용인시 수지구 죽전로 150 단대프라자3 105호', 'A'),
-                                                                               ('명랑핫도그', '핫도그', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/73_%EB%AA%85%EB%9F%89%ED%95%AB%EB%8F%84%EA%B7%B8.jpeg', '음식점', '경기 용인시 수지구 죽전로 150 단대프라자 3차 103호', 'A'),
-                                                                               ('백소정', '소바, 돈카츠', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/74_%EB%B0%B1%EC%86%8C%EC%A0%95.jpeg', '음식점', '경기 용인시 수지구 죽전로 150 단대프라자3 1층 101호', 'A'),
-                                                                               ('겐코쇼쿠도', '라멘, 동', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/75_%EA%B2%90%EC%BD%94%EC%87%BC%EC%BF%A0%EB%8F%84.jpeg', '음식점', '경기 용인시 수지구 죽전로 150-1 1층 105호', 'A'),
-                                                                               ('동북양꼬치', '양꼬치', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/76_%EB%8F%99%EB%B6%81%EC%96%91%EA%BC%AC%EC%B9%98.jpeg', '음식점', '경기 용인시 수지구 죽전로 150-1 단대프라자2 2층', 'A'),
-                                                                               ('컴포즈', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/77_%EC%BB%B4%ED%8F%AC%EC%A6%88.jpeg', '카페', '경기 용인시 수지구 죽전로 150-1 1층 102~103호', 'A'),
-                                                                               ('메가커피', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/78_%EB%A9%94%EA%B0%80%EC%BB%A4%ED%94%BC.jpeg', '카페', '경기 용인시 수지구 죽전로 150 단대프라자3 1층 107호', 'A'),
-                                                                               ('6월의 강', '파스타', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/79_6%EC%9B%94%EC%9D%98%EA%B0%95.jpeg', '음식점', '경기 용인시 수지구 죽전로 164', 'A'),
-                                                                               ('파스타하우스', '파스타타', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/80_%ED%8C%8C%EC%8A%A4%ED%83%80%ED%95%98%EC%9A%B0%EC%8A%A4.jpeg', '음식점', '경기 용인시 수지구 죽전로144번길 7-2 1층', 'A'),
-
-                                                                               ('스낵얌', '돈까스', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/81_%EC%8A%A4%EB%82%B5%EC%96%8C.jpeg', '음식점', '경기 용인시 수지구 죽전로144번길 7-6 1층', 'A'),
-                                                                               ('새날', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/82_%EC%83%88%EB%82%A0.jpeg', '카페', '경기 용인시 수지구 죽전로 152', 'A'),
-                                                                               ('아름다운커피', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/83_%EC%95%84%EB%A6%84%EB%8B%A4%EC%9A%B4%EC%BB%A4%ED%94%BC.jpeg', '카페', '경기 용인시 수지구 죽전로 152 단국대학교 죽전캠퍼스 상경관 2층', 'A'),
-                                                                               ('르호봇', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/84_%EB%A5%B4%ED%98%B8%EB%B4%87.jpeg', '카페', '경기 용인시 수지구 죽전로 152 대학원동 1층', 'A'),
-                                                                               ('카페더베어', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/85_%EC%B9%B4%ED%8E%98%EB%8D%94%EB%B2%A0%EC%96%B4.jpeg', '카페', '경기 용인시 수지구 죽전로 152', 'A');
+--                                                                                ('쫄면에빠진닭', '치킨', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/61_%EC%AB%84%EB%A9%B4%EC%97%90%EB%B9%A0%EC%A7%84%EB%8B%AD.jpeg', '음식점', '경기 용인시 수지구 죽전로 172 단국프라자 1층 104호', 'A'),
+--                                                                                ('르헤브드베베', '마카롱', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/62_%EB%A5%B4%ED%97%A4%EB%B8%8C%EB%93%9C%EB%B2%A0%EB%B2%A0.jpeg', '카페', '경기 용인시 수지구 죽전로168번길 3-3', 'A'),
+--                                                                                ('얌샘김밥', '분식', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/63_%EC%96%8C%EC%83%98%EA%B9%80%EB%B0%A5.jpeg', '음식점', '경기 용인시 수지구 죽전로 172 단국프라자 110호', 'A'),
+--                                                                                ('굽네치킨', '치킨', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/64_%EA%B5%BD%EB%84%A4%EC%B9%98%ED%82%A8.jpeg', '음식점', '경기 용인시 수지구 죽전로 164 화이트존 1층 102호', 'A'),
+--                                                                                ('예촌왕돌판구이', '돼지고기, 찌개', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/65_%EC%98%88%EC%B4%8C%EC%99%95%EB%8F%8C%ED%8C%90%EA%B5%AC%EC%9D%B4.jpeg', '음식점', '경기 용인시 수지구 죽전로168번길 7 2층', 'A'),
+--                                                                                ('참바지락칼제비', '칼국수', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/66_%EC%B0%B8%EB%B0%94%EC%A7%80%EB%9D%BD%EC%B9%BC%EC%A0%9C%EB%B9%84.jpeg', '음식점', '경기 용인시 수지구 죽전로168번길 7 승은프라자 1층', 'A'),
+--                                                                                ('신통치킨', '치킨', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/67_%EC%8B%A0%ED%86%B5%EC%B9%98%ED%82%A8.jpeg', '음식점', '경기 용인시 수지구 죽전로 136 월드프라자 101호', 'A'),
+--                                                                                ('커피프리덤', '커피, 빙수, 아이스크림', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/68_%EC%BB%A4%ED%94%BC%ED%94%84%EB%A6%AC%EB%8D%A4.jpeg', '카페', '경기 용인시 수지구 죽전로 101호', 'A'),
+--                                                                                ('꽃보다마카롱', '마카롱', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/69_%EA%BD%83%EB%B3%B4%EB%8B%A4%EB%A7%88%EC%B9%B4%EB%A1%B1.jpeg', '카페', '경기 용인시 수지구 죽전로 142 유니프라자 104호', 'A'),
+--                                                                                ('투고박스', '베트남 국수', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/70_%ED%88%AC%EA%B3%A0%EB%B0%95%EC%8A%A4.jpeg', '음식점', '경기 용인시 수지구 죽전로 142 유니프라자 1층', 'A'),
+--
+--                                                                                ('타코하라', '타코야키', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/71_%ED%83%80%EC%BD%94%ED%95%98%EB%9D%BC.jpeg', '음식점', '경기 용인시 수지구 죽전로 146 1층 104호', 'A'),
+--                                                                                ('이삭토스트', '토스트', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/72_%EC%9D%B4%EC%82%AD%ED%86%A0%EC%8A%A4%ED%8A%B8.jpeg', '음식점', '경기 용인시 수지구 죽전로 150 단대프라자3 105호', 'A'),
+--                                                                                ('명랑핫도그', '핫도그', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/73_%EB%AA%85%EB%9F%89%ED%95%AB%EB%8F%84%EA%B7%B8.jpeg', '음식점', '경기 용인시 수지구 죽전로 150 단대프라자 3차 103호', 'A'),
+--                                                                                ('백소정', '소바, 돈카츠', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/74_%EB%B0%B1%EC%86%8C%EC%A0%95.jpeg', '음식점', '경기 용인시 수지구 죽전로 150 단대프라자3 1층 101호', 'A'),
+--                                                                                ('겐코쇼쿠도', '라멘, 동', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/75_%EA%B2%90%EC%BD%94%EC%87%BC%EC%BF%A0%EB%8F%84.jpeg', '음식점', '경기 용인시 수지구 죽전로 150-1 1층 105호', 'A'),
+--                                                                                ('동북양꼬치', '양꼬치', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/76_%EB%8F%99%EB%B6%81%EC%96%91%EA%BC%AC%EC%B9%98.jpeg', '음식점', '경기 용인시 수지구 죽전로 150-1 단대프라자2 2층', 'A'),
+--                                                                                ('컴포즈', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/77_%EC%BB%B4%ED%8F%AC%EC%A6%88.jpeg', '카페', '경기 용인시 수지구 죽전로 150-1 1층 102~103호', 'A'),
+--                                                                                ('메가커피', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/78_%EB%A9%94%EA%B0%80%EC%BB%A4%ED%94%BC.jpeg', '카페', '경기 용인시 수지구 죽전로 150 단대프라자3 1층 107호', 'A'),
+--                                                                                ('6월의 강', '파스타', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/79_6%EC%9B%94%EC%9D%98%EA%B0%95.jpeg', '음식점', '경기 용인시 수지구 죽전로 164', 'A'),
+--                                                                                ('파스타하우스', '파스타타', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/80_%ED%8C%8C%EC%8A%A4%ED%83%80%ED%95%98%EC%9A%B0%EC%8A%A4.jpeg', '음식점', '경기 용인시 수지구 죽전로144번길 7-2 1층', 'A'),
+--
+--                                                                                ('스낵얌', '돈까스', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/81_%EC%8A%A4%EB%82%B5%EC%96%8C.jpeg', '음식점', '경기 용인시 수지구 죽전로144번길 7-6 1층', 'A'),
+--                                                                                ('새날', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/82_%EC%83%88%EB%82%A0.jpeg', '카페', '경기 용인시 수지구 죽전로 152', 'A'),
+--                                                                                ('아름다운커피', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/83_%EC%95%84%EB%A6%84%EB%8B%A4%EC%9A%B4%EC%BB%A4%ED%94%BC.jpeg', '카페', '경기 용인시 수지구 죽전로 152 단국대학교 죽전캠퍼스 상경관 2층', 'A'),
+--                                                                                ('르호봇', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/84_%EB%A5%B4%ED%98%B8%EB%B4%87.jpeg', '카페', '경기 용인시 수지구 죽전로 152 대학원동 1층', 'A'),
+--                                                                                ('카페더베어', '', 'https://danmatmap.s3.ap-southeast-2.amazonaws.com/%EB%8B%A8%EB%A7%9B%EC%A7%80%EB%8F%84+%EA%B0%84%ED%8C%90/85_%EC%B9%B4%ED%8E%98%EB%8D%94%EB%B2%A0%EC%96%B4.jpeg', '카페', '경기 용인시 수지구 죽전로 152', 'A');
 
 
 
@@ -225,33 +225,33 @@ INSERT INTO restaurant_tag (restaurant_id, tag_id) VALUES
                                                        (57, 16), (57, 17), (57, 18),              -- 보통카페: 카공, 팀플, 단체 모임
                                                        (58, 3), (58, 12), (58, 13), (58, 8), (58, 11), -- 홍춘: 중식, 토/일, 단체, 주류
                                                        (59, 16), (59, 17), (59, 18),              -- 카페168: 카공, 팀플, 단체 모임
-                                                       (60, 5), (60, 12), (60, 8), (60, 11),       -- 다린: 양식, 토요일, 단체, 주류
+                                                       (60, 5), (60, 12), (60, 8), (60, 11);       -- 다린: 양식, 토요일, 단체, 주류
 
-                                                       (61, 6), (61, 12), (61, 13), (61, 15), (61, 9),           -- 쫄면에빠진닭: 기타, 토요일, 일요일, 늦은 저녁, 단체 포장
-                                                       (62, 17), (62, 18),                                      -- 르헤브드베베: 팀플, 단체 모임
-                                                       (63, 6), (63, 12), (63, 13), (63, 10), (63, 7),           -- 얌샘김밥: 기타, 토요일, 일요일, 가성비, 혼밥
-                                                       (64, 6), (64, 12), (64, 13), (64, 15), (64, 8), (64, 9),  -- 굽네치킨: 기타, 토요일, 일요일, 늦은 저녁, 단체 식사, 단체 포장
-                                                       (65, 1), (65, 12), (65, 13), (65, 15), (65, 8), (65, 11), -- 예촌왕돌판구이: 한식, 토요일, 일요일, 늦은 저녁, 단체 식사, 주류
-                                                       (66, 1), (66, 12), (66, 15), (66, 10), (66, 8), (66, 11),         -- 참바지락칼제비
-                                                       (67, 1), (67, 12), (67, 15), (67, 10), (67, 8), (67, 9), (67, 11),-- 신통치킨
-                                                       (68, 16),                                                       -- 커피프리덤
-                                                       (69, 16),                                                       -- 꽃보다마카롱
-                                                       (70, 5), (70, 13), (70, 10), (70, 7), (70, 9),                  -- 투고박스
-
-                                                       (71, 3), (71, 12), (71, 13), (71, 9),                             -- 타코하라
-                                                       (72, 6), (72, 12), (72, 10), (72, 14), (72, 7), (72, 9),          -- 이삭토스트
-                                                       (73, 6), (73, 12), (73, 13), (73, 15), (73, 10), (73, 9),         -- 명랑핫도그
-                                                       (74, 3), (74, 12), (74, 7),                                       -- 백소정
-                                                       (75, 3), (75, 12), (75, 7), (75, 11),                             -- 겐코쇼쿠도
-                                                        (76, 2), (76, 12), (76, 8),                             -- 동북양꼬치
-                                                        (77, 16), (77, 17), (77, 18), (77, 10),                 -- 컴포즈
-                                                        (78, 16), (78, 17), (78, 18), (78, 10),                 -- 메가커피
-                                                        (79, 4), (79, 12), (79, 13), (79, 7), (79, 11),         -- 6월의 강
-                                                        (80, 4), (80, 13), (80, 10), (80, 7), (80, 11),         -- 파스타하우스
-
-                                                       (81, 3), (81, 12), (81, 13), (81, 10), (81, 7), (81, 8),         -- 스낵얌
-                                                       (82, 10),                                                       -- 새날
-                                                       (83, 10),                                                       -- 아름다운커피
-                                                       (84, 16), (84, 17), (84, 18), (84, 10),                         -- 르호봇
-                                                       (85, 16), (85, 17);                                             -- 카페더베어
+--                                                        (61, 6), (61, 12), (61, 13), (61, 15), (61, 9),           -- 쫄면에빠진닭: 기타, 토요일, 일요일, 늦은 저녁, 단체 포장
+--                                                        (62, 17), (62, 18),                                      -- 르헤브드베베: 팀플, 단체 모임
+--                                                        (63, 6), (63, 12), (63, 13), (63, 10), (63, 7),           -- 얌샘김밥: 기타, 토요일, 일요일, 가성비, 혼밥
+--                                                        (64, 6), (64, 12), (64, 13), (64, 15), (64, 8), (64, 9),  -- 굽네치킨: 기타, 토요일, 일요일, 늦은 저녁, 단체 식사, 단체 포장
+--                                                        (65, 1), (65, 12), (65, 13), (65, 15), (65, 8), (65, 11), -- 예촌왕돌판구이: 한식, 토요일, 일요일, 늦은 저녁, 단체 식사, 주류
+--                                                        (66, 1), (66, 12), (66, 15), (66, 10), (66, 8), (66, 11),         -- 참바지락칼제비
+--                                                        (67, 1), (67, 12), (67, 15), (67, 10), (67, 8), (67, 9), (67, 11),-- 신통치킨
+--                                                        (68, 16),                                                       -- 커피프리덤
+--                                                        (69, 16),                                                       -- 꽃보다마카롱
+--                                                        (70, 5), (70, 13), (70, 10), (70, 7), (70, 9),                  -- 투고박스
+--
+--                                                        (71, 3), (71, 12), (71, 13), (71, 9),                             -- 타코하라
+--                                                        (72, 6), (72, 12), (72, 10), (72, 14), (72, 7), (72, 9),          -- 이삭토스트
+--                                                        (73, 6), (73, 12), (73, 13), (73, 15), (73, 10), (73, 9),         -- 명랑핫도그
+--                                                        (74, 3), (74, 12), (74, 7),                                       -- 백소정
+--                                                        (75, 3), (75, 12), (75, 7), (75, 11),                             -- 겐코쇼쿠도
+--                                                         (76, 2), (76, 12), (76, 8),                             -- 동북양꼬치
+--                                                         (77, 16), (77, 17), (77, 18), (77, 10),                 -- 컴포즈
+--                                                         (78, 16), (78, 17), (78, 18), (78, 10),                 -- 메가커피
+--                                                         (79, 4), (79, 12), (79, 13), (79, 7), (79, 11),         -- 6월의 강
+--                                                         (80, 4), (80, 13), (80, 10), (80, 7), (80, 11),         -- 파스타하우스
+--
+--                                                        (81, 3), (81, 12), (81, 13), (81, 10), (81, 7), (81, 8),         -- 스낵얌
+--                                                        (82, 10),                                                       -- 새날
+--                                                        (83, 10),                                                       -- 아름다운커피
+--                                                        (84, 16), (84, 17), (84, 18), (84, 10),                         -- 르호봇
+--                                                        (85, 16), (85, 17);                                             -- 카페더베어
 
