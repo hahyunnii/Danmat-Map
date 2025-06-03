@@ -125,23 +125,25 @@
 ### 📌 식당 및 태그 검색  
 카테고리 태그를 직접 선택하거나 자동완성 기능을 통해 식당을 검색할 수 있습니다.
 
-**Tagify 기반 태그 선택**
+**자동완성 (AutoComplete.js)**
 
 <a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/3_tagsearch.gif" target="_blank">
   <img src="https://github.com/user-attachments/assets/ea639c17-14ff-4c0d-b8bc-7193f28fff8a" width="600"/>
 </a>
 
-**카테고리 태그 필터링**
+**태그 선택 (Tagify)**
+
+<a href="https://github.com/user-attachments/assets/6f6f6b93-7fe8-4494-8a84-77847a146cdd" target="_blank">
+  <img src="https://github.com/user-attachments/assets/6f6f6b93-7fe8-4494-8a84-77847a146cdd" width="600"/>
+</a>
+
+**태그**
 
 <a href="https://github.com/user-attachments/assets/189cc4e6-9a39-4eaa-a490-2ea89d00b380" target="_blank">
   <img src="https://github.com/user-attachments/assets/189cc4e6-9a39-4eaa-a490-2ea89d00b380" width="600"/>
 </a>
 
-**자동완성 (AutoComplete.js)**
 
-<a href="https://github.com/user-attachments/assets/6f6f6b93-7fe8-4494-8a84-77847a146cdd" target="_blank">
-  <img src="https://github.com/user-attachments/assets/6f6f6b93-7fe8-4494-8a84-77847a146cdd" width="600"/>
-</a>
 
 ---
 
@@ -169,7 +171,7 @@ LibreTranslate API를 통해 한국어를 영어, 일본어, 중국어로 자동
 ---
 
 ### 📌 이메일 연동  
-이메일 아이콘 클릭 시 기본 메일 앱이 열리며, 관리자에게 문의 가능합니다.
+이메일 아이콘 클릭 시 기본 메일 앱이 열리며, 관리자에게 문의 가능합니다. (mailto)
 
 <a href="https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/5_mailto.gif" target="_blank">
   <img src="https://github.com/user-attachments/assets/a4cc765d-2f5d-4e59-abdd-a36d088beaf9" width="600"/>
