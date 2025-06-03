@@ -27,7 +27,7 @@
 
 | 이름 | 전공 | 역할 | GitHub |
 |------|------|------|--------|
-| 이하현 | 소프트웨어학과 | DB 설계 및 관리, 백엔드 개발, 프론트엔드 개발, 자료조사 | [@hahyunlee](https://github.com/hahyunnii) |
+| 이하현 | 소프트웨어학과 | DB 설계 및 관리, 백엔드 개발, 프론트엔드 개발, 자료조사 | [@hahyunnii](https://github.com/hahyunnii) |
 | 권나희 | 산업보안학과 | 프론트엔드 개발, UI 구성, 자료조사 | [@naheekwon](https://github.com/naheekwon) |
 | 조수빈 | 컴퓨터공학과 | 프론트엔드 개발, 자료조사 | [@kimchi-cream](https://github.com/kimchi-cream) |
 
@@ -100,7 +100,7 @@
 
 ## 🏁 프로젝트 결과
 
-> 주요 기능을 GIF 및 이미지로 시각화한 예시입니다.
+> 주요 기능 GIF 및 이미지
 
 ---
 
