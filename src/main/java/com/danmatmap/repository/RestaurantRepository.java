@@ -1,4 +1,7 @@
 package com.danmatmap.repository;
 
-public interface RestaurantRepository {
+import com.danmatmap.entity.Restaurant;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RestaurantRepository extends JpaRepository<Restaurant, Long> {
 }

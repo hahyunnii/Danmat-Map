@@ -1,7 +1,7 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.4.5'
-	id 'io.spring.dependency-management' version '1.1.7'
+	id 'org.springframework.boot' version '3.3.1'
+	id 'io.spring.dependency-management' version '1.1.5'
 }
 
 group = 'com.danmatmap'
@@ -28,14 +28,36 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+
+	// MapStruct
+	implementation 'org.mapstruct:mapstruct:1.5.5.Final'
+	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.5.Final'
+
+	// Lombok
 	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'com.microsoft.sqlserver:mssql-jdbc'
 	runtimeOnly 'com.mysql:mysql-connector-j'
-	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	//swagger
+	// implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
+
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+
+	// h2
+	implementation 'com.h2database:h2'
+
+	//amazon aws
+	implementation 'com.amazonaws:aws-java-sdk-s3:1.12.681'
+
+
+
+
 }
 
 tasks.named('test') {
