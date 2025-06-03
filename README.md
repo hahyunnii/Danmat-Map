@@ -8,10 +8,11 @@
 
 ## 📂 GitHub 레포지토리
 
-| 파트 | 설명 | 링크 |
-|------|------|------|
-| 프론트엔드 | 사용자 인터페이스, 지도 API, 번역 기능 구현 등 | [teamproject1 (권나희)](https://github.com/naheekwon/teamproject1) |
-| 백엔드 | Spring Boot 기반 REST API, DB 설계, S3 업로드 등 | [DanMat-Map-backend2 (이하현)](https://github.com/hahyunnii/DanMat-Map-backend2) |
+| 파트 | 링크 |
+|------|------|
+| 프론트엔드 | [https://github.com/naheekwon/teamproject1](https://github.com/naheekwon/teamproject1) |
+| 백엔드 | [https://github.com/hahyunnii/DanMat-Map-backend2](https://github.com/hahyunnii/DanMat-Map-backend2) |
+
 
 ---
 
