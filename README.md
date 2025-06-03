@@ -108,22 +108,22 @@
 ---
 
 ### 📌 랜덤 추천
-![랜덤 추천](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/2.+%EA%B0%80%EA%B2%8C%EC%B6%94%EC%B2%9C_%EB%AA%A8%EB%91%90%EB%B3%B4%EA%B8%B0(%EB%9E%9C%EB%8D%A4%EC%B6%94%EC%B2%9C).gif)
+![랜덤 추천](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/2_ramdom.gif)
 
 ---
 
 ### 📌 식당 및 태그 검색
-![태그 검색](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/3.+%ED%83%9C%EA%B7%B8%EA%B2%80%EC%83%89.gif)
+![태그 검색](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/3_tagsearch.gif)
 
 ---
 
 ### 📌 다국어 번역
-![다국어 번역](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/4.+%EB%B2%88%EC%97%AD%EA%B8%B0%EB%8A%A5.gif)
+![다국어 번역](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/4_translation.gif)
 
 ---
 
 ### 📌 이메일 연동
-![메일 연동](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/5.+mailto.gif)
+![메일 연동](https://danmatmap.s3.ap-southeast-2.amazonaws.com/gif/5_mailto.gif)
 
 ---
 
