@@ -39,7 +39,7 @@
 |------|------|------|--------|
 | 이하현 | 소프트웨어학과 | DB 설계 및 관리, 백엔드 개발, 프론트엔드 개발, 자료조사 | [@hahyunnii](https://github.com/hahyunnii) |
 | 권나희 | 산업보안학과 | 프론트엔드 개발, UI 구성, 자료조사 | [@naheekwon](https://github.com/naheekwon) |
-| 조수빈 | 컴퓨터공학과 | 프론트엔드 개발, 자료조사 | [@kimchi-cream](https://github.com/kimchi-cream) |
+| 조수빈 | 컴퓨터공학과 | 프론트엔드 개발, 데이터조사, 자료조사 | [@kimchi-cream](https://github.com/kimchi-cream) |
 
 ---
 
